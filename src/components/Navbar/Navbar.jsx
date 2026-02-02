@@ -29,7 +29,7 @@ export default function Navbar() {
     <>
       <nav className="fixed inset-x-0 top-0 z-40 dark:bg-black bg-white shadow-[0_4px_12px_rgba(0,0,0,0.35)] py-6">
         <div className="container  w-[80%] mx-auto dark:text-white text-black flex flex-wrap items-center justify-between">
-          <NavLink to="/" className="text-2xl font-bold w-1/2">
+          <NavLink to="/" className="text-[19px] md:text-2xl font-bold w-1/2">
             Start Framework
           </NavLink>
           <ul className="hidden desktop-nav md:flex gap-5 ml-auto pe-4">

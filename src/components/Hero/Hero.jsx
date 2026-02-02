@@ -2,7 +2,7 @@ import React from "react";
 import avatar from "/src/assets/images/avatars.svg";
 export default function Hero() {
   return (
-    <div className="py-24">
+    <div className="py-24 h-screen">
       <img src={avatar} alt="avatar" className="size-[240px] mx-auto" />
       <h1 className="uppercase text-shadow-lg dark:text-shadow-gray-600 text-shadow-white text-center mt-5 text-3xl font-semibold dark:text-white">
         start Framework

@@ -37,11 +37,10 @@ export default function Footer() {
               </p>
             </div>
           </div>
-       
         </div>
-           <div className="dark:bg-gray-700 bg-gray-500 text-white text-center py-2">
-            <p>Copyright © Your Website 2021</p>
-          </div>
+        <div className="dark:bg-gray-700 bg-gray-500 text-white text-center py-2">
+          <p>Copyright © Your Website 2021</p>
+        </div>
       </footer>
       <div
         className={`row justify-center fixed inset-x-0 bottom-0 z-40  mb-15 ${isOpen ? "translate-y-0" : "translate-y-[85%]"} transition duration-300 dark:bg-gray-400 bg-white lg:hidden`}
@@ -82,7 +81,7 @@ export default function Footer() {
         </div>
         <div className="w-full md:w-1/2 md:mx-auto lg:w-1/3 text-center my-3">
           <h3 className="font-semibold text-2xl mb-2">ABOUT FREELANCER</h3>
-          <p className="px-3">
+          <p className="pb-4">
             Freelance is a free to use, licensed Bootstrap theme created by
             Route
           </p>
