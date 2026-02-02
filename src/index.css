@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --color-tomato: tomato;
+  --color-barkblue: #2c3e50;
+}
+
+@layer components {
+  .btn {
+    @apply bg-gray-500 p-3 rounded-md text-white hover:bg-gray-700 cursor-pointer transition-all duration-200 shadow-md hover:shadow-xl;
+  }
+  .row {
+    @apply flex flex-wrap;
+  }
+  .mobile-nav .active {
+    @apply bg-black rounded-md text-white dark:bg-white dark:text-black;
+  }
+  .desktop-nav .active {
+    @apply dark:bg-white dark:text-black  rounded-lg font-semibold;
+  }
+}
