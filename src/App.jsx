@@ -7,18 +7,23 @@ import About from "./components/About/About";
 import Contact from "./components/Contact/Contact";
 
 function App() {
-  const route = createBrowserRouter([
+  const route = createBrowserRouter(
+    [
+      {
+        path: "/",
+        element: <Layout />,
+        children: [
+          { index: true, element: <Hero /> },
+          { path: "portfolio", element: <Protfolio /> },
+          { path: "about", element: <About /> },
+          { path: "contact", element: <Contact /> },
+        ],
+      },
+    ],
     {
-      path: "",
-      element: <Layout />,
-      children: [
-        { path: "", element: <Hero /> },
-        { path: "portfolio", element: <Protfolio /> },
-        { path: "about", element: <About /> },
-        { path: "contact", element: <Contact /> },
-      ],
+      basename: "/first-react-assignment",
     },
-  ]);
+  );
   return (
     <>
       <RouterProvider router={route} />
