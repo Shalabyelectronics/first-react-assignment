@@ -33,7 +33,7 @@ export default function Protfolio() {
 
   return (
     <>
-      <div className="py-24 lg:pb-48 relative">
+      <div className="section-header pt-24">
         <h1 className="uppercase text-center mt-5 text-3xl font-semibold dark:text-white">
           Portfolio
         </h1>
@@ -42,6 +42,9 @@ export default function Protfolio() {
             <i className="fa-solid fa-star"></i>
           </div>
         </div>
+      </div>
+
+      <div className=" relative flex items-center justify-center">
         <div className="row py-8 w-[80%] mx-auto">
           {images.map((image, index) => (
             <div
