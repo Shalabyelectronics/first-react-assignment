@@ -2,7 +2,7 @@ import React from "react";
 
 export default function WebMap() {
   return (
-    <div className={`row justify-center text-center hidden lg:flex`}>
+    <div className={`row justify-center text-center hidden lg:flex py-12`}>
       <div className="w-full md:w-1/2 text-center lg:w-1/3 my-3">
         <h3 className="font-semibold text-2xl mb-2">LOCATION</h3>
         <p>2215 John Daniel Drive</p>
@@ -27,7 +27,7 @@ export default function WebMap() {
       </div>
       <div className="w-full md:w-1/2 md:mx-auto lg:w-1/3 text-center my-3">
         <h3 className="font-semibold text-2xl mb-2">ABOUT FREELANCER</h3>
-        <p>
+        <p className="lg:w-1/2 mx-auto">
           Freelance is a free to use, licensed Bootstrap theme created by Route
         </p>
       </div>

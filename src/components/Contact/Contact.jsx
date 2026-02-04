@@ -3,7 +3,7 @@ import React from "react";
 export default function Contact() {
   return (
     <>
-      <div className="pt-28 section-header text-center">
+      <div className="pt-36 section-header text-center">
         <h1 className="dark:text-white text-2xl font-semibold">Contact Page</h1>
         <div className="border-3 relative mt-4 flex mx-auto justify-center w-64 dark:text-white ">
           <div className="absolute -translate-y-2 w-20 flex justify-center items-center rounded-full dark:bg-gray-400 bg-gray-200">

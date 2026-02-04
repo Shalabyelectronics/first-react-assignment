@@ -2,8 +2,8 @@ import React from "react";
 
 export default function About() {
   return (
-    <div className="">
-      <div className="section-header pt-24 text-center ">
+    <div className="pt-36  lg:pb-12">
+      <div className="section-header text-center ">
         <h1 className="text-2xl font-semibold dark:text-white uppercase text-shadow-lg dark:text-shadow-gray-600 text-shadow-white">
           about component
         </h1>
@@ -14,14 +14,14 @@ export default function About() {
         </div>
       </div>
       <div className=" text-center">
-        <div className="content">
-          <p className="mb-5 w-[80%] mx-auto text-start dark:text-white text-shadow-lg dark:text-shadow-gray-600 text-shadow-white">
+        <div className="content lg:w-[50%] lg:mx-auto">
+          <p className="mb-5 w-[80%] mx-auto text-start lg:text-[20px] dark:text-white text-shadow-lg dark:text-shadow-gray-600 text-shadow-white">
             Freelancer is a free bootstrap theme created by Route. The download
             includes the complete source files including HTML, CSS, and
             JavaScript as well as optional SASS stylesheets for easy
             customization.
           </p>
-          <p className="text-start w-[80%] mx-auto dark:text-white text-shadow-lg dark:text-shadow-gray-600 text-shadow-white ">
+          <p className="text-start w-[80%] mx-auto lg:text-[20px] dark:text-white text-shadow-lg dark:text-shadow-gray-600 text-shadow-white ">
             Freelancer is a free bootstrap theme created by Route. The download
             includes the complete source files including HTML, CSS, and
             JavaScript as well as optional SASS stylesheets for easy
